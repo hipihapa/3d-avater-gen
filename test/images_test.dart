@@ -6,6 +6,7 @@ import 'package:_3d_avatar_gen/resources/resources.dart';
 void main() {
   test('images assets test', () {
     expect(File(Images.bg).existsSync(), isTrue);
+    expect(File(Images.bg2).existsSync(), isTrue);
     expect(File(Images.circle).existsSync(), isTrue);
     expect(File(Images.dot).existsSync(), isTrue);
     expect(File(Images.e1).existsSync(), isTrue);
